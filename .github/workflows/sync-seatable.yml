@@ -23,7 +23,7 @@ jobs:
       - name: Pull and Push
         run: |
           REG=${{ secrets.ACR_REGISTRY }}
-          NS=seatable   # 改成你的命名空间
+          NS=superkevin   # 改成你的命名空间
           for img in \
             seatable/seatable-python-scheduler:latest \
             seatable/seatable-python-starter:latest \
